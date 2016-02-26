@@ -1,7 +1,7 @@
 #include<stdio.h>
 const int len = 8;
 
-// �ϲ� 
+// 合并有序数列 
 void merge_sort_array(int arr[],int reg[],int start,int mid,int end){
 	int i = start;
 	int j = mid + 1;
